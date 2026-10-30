@@ -1,0 +1,23 @@
+# dependencies / build output
+node_modules
+dist
+web/dist
+*.tsbuildinfo
+
+# local env (web/.env.example is tracked)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# supabase local state
+supabase/.temp
+supabase/.branches
+.branches
+
+# test / tooling artifacts
+coverage
+test-results
+playwright-report
+*.log
+.DS_Store

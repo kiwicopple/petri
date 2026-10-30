@@ -1,0 +1,5 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": { "baseUrl": ".", "paths": { "@shared/*": ["../supabase/functions/_shared/*"] } },
+  "include": ["src", "vite.config.ts", "../supabase/functions/_shared"]
+}
